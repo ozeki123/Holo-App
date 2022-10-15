@@ -1,0 +1,88 @@
+// // .carousel-container{
+// //   height: 100vh;
+// //   width: 120vw;
+// //   background-color: red;
+// //   overflow: hidden;
+// //   .carousel-contents{
+// //     display: flex;
+// //     justify-content: space-between;
+// //     background-color: blue;
+// //     height: 70%;
+// //     width: 140%;
+// //     .carousel-item{
+      
+// //       width: 32%;
+// //       height: 100%;
+// //       background-color: yellow;
+// //     }
+// //   }
+// // }
+
+// .carousel-container{
+//   height: 50%;
+//   padding-top: 25px;
+//   position: relative;
+//   overflow-x: hidden;
+//   // margin-top: 130px;
+
+//   .carousel-nav{
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     position: absolute;
+//     transform: translateY(-50%);
+//     top: 50%;
+//     z-index: 1;
+//     button{
+//       height: 50px;
+//       width: 50px;
+//     }
+//   }
+  
+//   .carousel-layout{
+//     width: 240%;
+//     height: 100%;
+//     margin: auto;
+//     overflow-x: hidden;
+    
+    
+//     .carousel-contents{
+//       display: flex;
+//       // justify-content: space-between;
+//       position: relative;
+//       transform: translate(-8%, -1%);
+//       // right: 21px;
+//       width: 155%;
+//       .carousel-item{
+//         display: inline-block;
+//         padding: 10px;
+//         // height: 100%;
+//         width: 32.5%;
+//         transition: 1s;
+        
+//         img{
+//           width: 100%;
+//           border-radius: 20px;
+//           box-shadow:4px 5px 10px rgba(119, 113, 197, 0.418);
+          
+//         }
+        
+//       }
+     
+//     }
+//   }
+
+//   .carousel-position{
+//     text-align: center;
+//     .marker{
+//       display: inline-block;
+//       height: 12px;
+//       width: 12px;
+//       border-radius: 50%;
+//       cursor: pointer;
+//       background-color: #c4c4c4;
+//       margin: 0px 5px 0px;
+//     }
+//   }
+  
+// }

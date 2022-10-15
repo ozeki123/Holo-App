@@ -1,0 +1,13 @@
+.menu-icon{
+  height: 11px;
+  width: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  .menu-line{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+  }
+}

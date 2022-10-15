@@ -1,0 +1,110 @@
+.date-container{
+  width: 100%;
+  height: 100%;
+  font-family: 'Aileron';
+  position: relative;
+  border: 0.5px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  .datepicker-wrapper{
+    width: 85%;
+    
+    height: 90%;
+    p{
+      text-align: center;
+    }
+  
+    .button-header{
+      height: 6%;
+      width: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      top: 1px;
+      right: 0;
+      button{
+        display: none;
+      }
+    }
+    .date-header{
+      height: 4%;
+      // width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .date-weekdays{
+      width: 100%;
+      height: 9%;
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      align-items: center;
+      p{
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(169, 169, 173);
+      }
+      
+    }
+
+    .dates-wrapper{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .date-days{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        .days-content{
+          height: 15%;
+          display: grid;
+          grid-template-columns: repeat(7, 1fr);
+          line-height: 52px;
+    
+          .day{
+            height: 100%;
+            border-radius: 50px;
+    
+    
+            p{
+              font-size: 12px;
+            
+            }
+          }
+    
+          .day:hover{
+            outline: solid 1px black;
+            
+          }
+    
+          
+    
+          .clicked{
+    
+          }
+    
+          .unclick{
+            // color: blue;
+          }
+        }
+      }
+    }
+  
+    
+  }
+  // padding-right: 30px;
+  // padding-left: 30px;
+  // padding-top: 20px;
+  // padding-bottom: 20px;
+  // height: 300px;
+  // background-color: blue;
+  // overflow: hidden;
+
+ 
+
+}
+

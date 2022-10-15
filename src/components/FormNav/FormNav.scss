@@ -1,0 +1,38 @@
+.form-nav-container{
+  width: 53.4%;
+  display: flex;
+  // justify-content: space-between;
+  
+  
+  .form-nav-contents{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+    li{
+      font-size: 14px;
+      padding-left: 9px;
+      
+    }
+    li::marker{
+      content: "\2B24";
+      font-size: 15px;
+      vertical-align: bottom;
+      border-radius: 15px;
+      color: #6c78e7;
+    }
+    :first-child, :first-child::marker{
+      color: #5a62f5;
+    }
+    :first-child::marker{
+      
+    }
+    :nth-child(2), :nth-child(3){
+      color: #6d6d6d;
+    }
+    :nth-child(2)::marker, :nth-child(3)::marker {
+      color: #adadad;
+    }
+
+}

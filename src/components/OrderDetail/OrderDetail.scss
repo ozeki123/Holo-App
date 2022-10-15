@@ -1,0 +1,106 @@
+.order-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Aileron';
+  // justify-content: center;
+  
+  .order-contents{
+    height: 100%;
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    .left-section{
+      height: 100%;
+      width: 69%;
+      .date-section{
+        height: 100%;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .date-picker{
+          width: 40%;
+          min-width: 300px;
+        }
+        
+        .order-details{
+          height: 300px;
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+
+          .date-details{
+            width: 100%;
+            display: flex;
+            .time-input{
+              width: 100%;
+              input{
+                width: 100%;
+              }
+            }
+          }
+
+          hr{
+            width: 100%;
+          }
+
+          .guest-input{
+            width: 100%;
+            input{
+              width: 100%;
+            }
+          }
+
+          label{
+            position: absolute;
+            padding: 10px;
+            font-size: 14px;
+          }
+
+          input{
+            height: 50px;
+            border: 1px solid gray;
+            border-radius: 5px;
+          }
+
+          input::placeholder{
+            position: absolute;
+            left: 10px;
+            letter-spacing: -0.5px;
+            top: 25px;
+          }
+          .date-input{
+            width: 100%;
+            input{
+              width: 100%;
+            }
+          }
+        }
+      }
+      .plan-section{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .plan-detail{
+          width: 48%;
+          height: 130px;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+        }
+      }
+      
+    }
+    .right-section{
+      width: 25%;
+      .order-buttons{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

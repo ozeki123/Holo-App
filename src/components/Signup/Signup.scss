@@ -1,0 +1,99 @@
+.hide{
+  display: none;
+}
+
+.offscreen{
+  display: none;
+}
+
+.signup-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  .signup-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .signup-contents{
+      height: 100%;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .signup-form{
+        height: 60%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        h1{
+          font-size: 2rem;
+          font-weight: 700;
+        }
+        .signup-input{
+          height: 10%;
+          width: 100%;
+          // display: flex;
+          // flex-direction: column;
+          position: relative;
+          label{
+            position: absolute;
+            padding-bottom: 10px;
+            font-weight: 300;
+            font-size: 0.7rem;
+            left: 4.6%;
+            top: 25%;
+            color: gray;
+          }
+          input{
+            height:20%;
+            width: 100%;
+            max-width: 100%;
+            border-radius: 7px;
+            border: 1px solid #f0f0f1;
+            background-color: #f0f0f1;
+            outline: none;
+            // font-family: 'Aileron';
+            font-size: 0.8rem;
+            padding: 15px 0;
+            padding-top: 8%;
+            font-weight: 300;
+            color: #4b4f58;
+            text-indent: 20px;
+            transition: all 0.5s ease-in-out;
+            &::placeholder{
+              font-family: 'Inter', sans-serif;
+              font-size: 14px;
+              color: #535a6d;
+            }
+            &:focus{
+              outline: none;
+              border: 1px solid #444CEF;
+            }
+          }
+        }
+  
+        // input{
+        //   padding: 15px 20px;
+        // }
+      }
+      button{
+        width: 100%;
+        height: 10%;
+      }
+    }
+    .signup-image{
+      height: 100%;
+      width: 40%;
+      background-image: url(../../assets/images/login-bg.jpg);
+      background-size: cover;
+      filter: contrast(105%);
+    }
+  }
+  
+}

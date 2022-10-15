@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.details-container{
+  width: 100%;
+  height: 71.5vh;
+  display: flex;
+  justify-content: center;
+  margin: 10.5vh 0;
+  font-family: 'Inter', sans-serif;
+  overflow: none;
+  .form-wrapper{
+    height: 100%;
+    width: 54%;
+    overflow: none;
+    .form-title{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h1{
+      font-size: 28px;
+      color: #2A3045;
+    }
+    .input-upload{
+      display: none;
+    }
+    .input-format{
+      width: 100%;
+      position: relative;
+      label{
+        position: absolute;
+        font-size: 11px;
+        left: 18.5px;
+        top: 19px;
+        color: gray;
+        z-index: 99;
+      }
+      input{
+        width: 100%;
+      }
+      select{
+        width: 100%;
+        height: 57px;
+        // text-indent: 14px;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        background-size: 1em;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 0.86em;
+      }
+      textarea{
+        width: 100%;
+        padding-top: 28px !important;
+      }
+      .input-desc{
+        padding-top: -20px;
+      }
+
+      
+    }
+    input[type=text], textarea, select{
+      color: #4b4f58;
+      height: 50px;
+      border-radius: 8px;
+      border: 1px solid #f0f0f1;
+      background-color: #f0f0f1;
+      margin: 8px 0;
+      height: 40px;
+      padding-top: 15px;
+      text-indent: 18px;
+      transition: all 0.5s ease-in-out;
+      outline: none;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      &::placeholder{
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        color: #535a6d;
+      }
+      &:focus{
+        outline: none;
+        border: 1px solid #444CEF;
+      }
+    }
+    h3{
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #2A3045;
+    }
+    p{
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      color: #9b99b3;
+      margin: 5px 0;
+      font-weight: 400;
+    }
+    .personal-info{
+      height: 22%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 7%;
+      padding-bottom: 4%;
+      border-bottom: 1px solid #e4e4e4;
+      .personal-heading{
+        width: 40%;
+        height: 30%;
+        display: flex;
+        position: relative;
+        
+        .heading-mark{
+          position: absolute;
+          height: 95.5%;
+          top: 3px;
+          width: 8px;
+          background-color: #e2e7f5;
+        }
+        .heading-text{
+          width: 100%;
+          position: absolute;
+          left: 21px;
+          
+        }
+      }
+      .personal-input{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+
+        .details-date{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .date-input{
+            width: 40%;
+            input{
+              width: 100%;
+            }
+          }
+          .time-input{
+            width: 27%;
+            input{
+              width: 100%;
+            }
+          }
+        }
+        
+        .personal-bottom{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          :first-child{
+            width: 30%;
+            input, select{
+              width: 100%;
+            }
+          }
+          :last-child{
+            width: 67%;
+            input, select{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .item-info{
+      height: 28%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 3%;
+      .item-input{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        .input-desc{
+          height: 90px !important;
+          position: relative;
+        }
+      }
+      .item-heading{
+        width: 35%;
+        height: 17%;
+        display: flex;
+        position: relative;
+        .heading-mark{
+          height: 92%;
+          width: 8px;
+          background-color: #e2e7f5;
+          position: absolute;
+          left: 0px;
+          top: 3px;
+        }
+        .heading-text{
+          position: absolute;
+          left: 21px
+        }
+      }
+
+    }
+    .form-buttons{
+      display: flex;
+      justify-content: flex-end;
+      margin: 7% 0;
+      :first-child{
+        margin: 0 20px;
+        width: 65px;
+        background-color: white;
+        border: 1px solid rgb(197, 197, 197);
+        color: #4b4f58;
+      }
+      :last-child{
+        width: 150px;
+        color: #444CEF;
+        background-color: white;
+      }
+      button{
+        height: 55px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Inter', sans-serif;
+        border: 1px solid #444CEF; 
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+      }
+    }
+  }
+  
+}

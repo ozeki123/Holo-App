@@ -1,0 +1,16 @@
+.flag-bg{
+  height: 17px;
+  width: 23px !important;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+  .flag-symbol{
+    position: absolute;
+    width: 9px !important;
+    height: 9px;
+    background-color: red;
+    border-radius: 5px;
+    left: 7px;
+    top: 4px;
+  }
+}

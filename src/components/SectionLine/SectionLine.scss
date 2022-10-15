@@ -1,0 +1,17 @@
+.line-container{
+  height: 2px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  
+  .section-line-left{
+    height: 100%;
+    width: 40%;
+    background-color: #444CEF;
+  }
+  .section-line-right{
+    height: 100%;
+    width: 56.5%;
+    background-color: #DBDBDB;
+  }
+}
